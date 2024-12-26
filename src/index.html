@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
     <header class="bg-gray-200">
@@ -12,24 +14,28 @@
                 <img src="./img/лого.png" alt="">
             </nav>
             <nav class=" hidden lg:flex gap-x-10">
-                <p>Обо мне</p>
+                <p><a href="http://127.0.0.1:5500/src/index.html">Обо мне</a></p>
                 <p>Занятия</p>
                 <p>Запись</p>
             </nav>
         </nav>
-        <section class=" block lg:flex justify-around">
-            <aside>
+        <section data-aos="fade-up"
+        data-aos-duration="3000" class=" block lg:flex justify-around">
+            <aside data-aos="fade-up"
+            data-aos-duration="3000">
                 <img src="./img/Гитарист + фигуры.png" alt="">
             </aside>
 
-            <aside class="-ml-32">
+            <aside data-aos="fade-up"
+            data-aos-duration="3000" class="-ml-32">
                 <img class=" hidden lg:flex relative lg:-left-20 top-[100px]" src="./img/Иконки.png" alt="">
                 <p class="text-center lg:relative top-[100px] text-5xl -left-20 font-bold">Я Виктор</p>
                 <img class=" hidden lg:relative lg:flex left-20" src="./img/Subtract (2).png" alt="">
                 <p class="ml-[130px] lg:relative -top-[80px] lg:-left-20 text-xl text-gray-500">Репетитор игры на гитаре с семилетним
                     <br> опытом преподавания
                 </p>
-                <div class=" text-center lg:flex relative top-[50px] lg:-left-20 gap-5">
+                <div data-aos="fade-up"
+                data-aos-duration="3000" class=" text-center lg:flex relative top-[50px] lg:-left-20 gap-5">
                     <button class="hidden lg:flex bg-[#f28b64] py-2 px-8  text-xl text-white rounded-full">Забронировать <br>
                         урок</button>
                     <img class="hidden lg:flex ml-5" src="./img/Иконка чата 1.jpg" alt="">
@@ -41,10 +47,12 @@
         </section>
     </header>
     <main>
-        <section class="mt-20 font-sans tiger">
+        <section data-aos="fade-up"
+        data-aos-duration="3000" class="mt-20 font-sans tiger">
             <div class="container mx-auto p-6">
                 <h1 class="text-5xl font-bold mb-8">Преподаю</h1>
-                <aside class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+                <aside data-aos="fade-up"
+                data-aos-duration="3000" class="grid grid-cols-1 sm:grid-cols-3 gap-6">
                     <div class="bg-gray-100 p-4 rounded-lg shadow-md text-center">
                         <img src="./img/Электро-гитара 1.png" alt="Электро гитара" class="mx-auto mb-4">
                         <p class="text-3xl font-medium">Электро гитара</p>
@@ -58,7 +66,8 @@
                         <p class="text-3xl font-medium">Укулеле гитара</p>
                     </div>
                 </aside>
-                <aside class="mt-10 grid grid-cols-1 sm:grid-cols-4 gap-4 text-center">
+                <aside data-aos="fade-up"
+                data-aos-duration="3000" class="mt-10 grid grid-cols-1 sm:grid-cols-4 gap-4 text-center">
                     <div class="flex gap-5 ml-5">
                         <img src="./img/01-Иконка.png" alt="">
                         <div>
@@ -90,12 +99,15 @@
                 </aside>
             </div>
         </section>
-        <section class=" mt-[1700px] block lg:flex bg-gray-200 h-[690px] justify-around gap-32 lg:mt-[500px]">
-            <aside>
+        <section data-aos="fade-up"
+        data-aos-duration="3000" class=" mt-[1700px] block lg:flex bg-gray-200 h-[690px] justify-around gap-32 lg:mt-[500px]">
+            <aside data-aos="fade-up"
+            data-aos-duration="3000">
                 <img class="relative top-44" src="./img/Декор круги (2).png" alt="">
                 <p class="mt-52 text-7xl font-bold relative -top-[200px] lg:left-20">Обучение</p>
             </aside>
-            <aside class="lg:relative -top-[400px]">
+            <aside data-aos="fade-up"
+            data-aos-duration="3000" class="lg:relative -top-[400px]">
                 <img class="hidden lg:flex relative lg:left-[437px] top-[400px]" src="./img/Декор круги.png" alt="">
                 <p class="mt-[140px] lg: text-5xl font-bold">Готовлю <br>
                     виртуозов</p>
@@ -107,7 +119,8 @@
                 <p class="text-xl text-gray-500 mt-5">Повседневная практика показывает, что рамки и <br> место обучения кадров позволяет оценить <br> значение новых
                     предложений. Не следует, однако забывать, <br> что рамки и место обучения кадров <br> влечет за собой процесс
                     внедрения и <br> модернизации систем массового участия.</p>
-                <div class=" block justify-center lg:flex gap-5 mt-5">
+                <div data-aos="fade-up"
+                data-aos-duration="3000" class=" block justify-center lg:flex gap-5 mt-5">
                     <button class="bg-[#f28b64] py-2 px-8 text-xl text-white rounded-full">Забронировать <br>
                         урок</button>
                     <img class="hidden lg:flex ml-5" src="./img/Иконка чата 1.jpg" alt="">
@@ -117,5 +130,21 @@
             </aside>
         </section>
     </main>
+        <footer data-aos="fade-up"
+        data-aos-duration="3000" class=" mt-[900px] block lg:flex lg:mt-0 justify-between">
+            <aside data-aos="fade-up"
+            data-aos-duration="3000">
+                <img src="./img/Гриф 1 (1).png" alt="">
+            </aside>
+            <aside data-aos="fade-up"
+            data-aos-duration="3000" class="relative lg:-left-10">
+                <p class="text-6xl font-bold mt-5">Запишись на <br>
+                    пробный урок</p>
+                <img class="mt-10" src="./img/Иконки.png" alt="">
+            </aside>
+        </footer>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
